@@ -16,6 +16,8 @@ header h1 {
     padding: 4em 0;
     text-align: center;
 
+    /* Just Andrej Stylization */
+
 }
 
 ul {
@@ -38,7 +40,7 @@ a {
     padding: 1em;
     border: solid 1px;
     display: inline;
-
+/* voor de navigatie balk */
 }
 
 a:hover {
@@ -52,6 +54,7 @@ a:hover {
     background: #eee;
     padding: 1em;
     vertical-align: text-bottom;
+    /* controleert de visuele elementen van de banner onder de nav */
 
 }
 
@@ -62,7 +65,7 @@ h2 {
 
 input {
     width: 100%;
-
+/* verlengd het invoerveld */
 
 }
 
