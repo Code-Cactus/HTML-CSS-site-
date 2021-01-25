@@ -20,6 +20,12 @@ header h1 {
 
 }
 
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+
 ul {
     display: flex;
     justify-content: space-evenly;
@@ -40,7 +46,8 @@ a {
     padding: 1em;
     border: solid 1px;
     display: inline;
-/* voor de navigatie balk */
+    /* voor de navigatie balk */
+
 }
 
 a:hover {
@@ -50,6 +57,32 @@ a:hover {
 
 }
 
+img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+input {
+    width: 100%;
+    /* verlengd het invoerveld */
+
+}
+
+
+}
+
+label {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: darkseagreen;
+    color: darkgreen;
+}
+
+
+
 .bannerText {
     background: #eee;
     padding: 1em;
@@ -58,34 +91,7 @@ a:hover {
 
 }
 
-h2 {
-    margin-top: 1em;
-    padding-top: 1em;
-}
-
-input {
-    width: 100%;
-/* verlengd het invoerveld */
-
-}
-
 .funImages {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-footer {
-    background-color: darkseagreen;
-    color: darkgreen;
-}
-
-img {
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-label {
-    display: flex;
-    justify-content: center;
-}
